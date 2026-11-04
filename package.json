@@ -1,0 +1,13 @@
+{
+  "name": "designity-web-assets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Versioned licensed browser assets for Designity",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "check": "node scripts/check.cjs"
+  },
+  "devDependencies": {
+    "clean-css": "5.3.3"
+  }
+}

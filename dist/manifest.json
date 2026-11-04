@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "vendor": "slick-carousel@1.8.1",
+  "minifier": "clean-css@5.3.3",
+  "options": {
+    "level": {
+      "1": {
+        "all": false,
+        "cleanupCharsets": true,
+        "removeWhitespace": true,
+        "specialComments": "all",
+        "selectorsSortingMethod": false
+      }
+    },
+    "rebase": false,
+    "inline": [
+      "none"
+    ]
+  },
+  "files": [
+    {
+      "source": "vendor/slick/1.8.1/slick.css",
+      "path": "dist/slick/1.8.1/slick.min.css",
+      "sourceBytes": 1776,
+      "bytes": 1390,
+      "sourceGzipBytes": 566,
+      "gzipBytes": 544,
+      "sha256": "d8ae5433f86a4a54590183bf5b2dde15779fbdea45810764be5c5ead00cc8bc7"
+    },
+    {
+      "source": "vendor/slick/1.8.1/slick-theme.css",
+      "path": "dist/slick/1.8.1/slick-theme.min.css",
+      "sourceBytes": 3145,
+      "bytes": 2477,
+      "sourceGzipBytes": 864,
+      "gzipBytes": 816,
+      "sha256": "1dbb4ff45644ea6741528e83b5c7203b69f4f5ffa1de4c6b9815d6cd88750345"
+    },
+    {
+      "path": "dist/slick/1.8.1/ajax-loader.gif",
+      "bytes": 4178,
+      "sha256": "e7b44c86b050fca766a96ddac2d0932af0126da6f2305280342d909168dcce6b",
+      "copiedByteForByte": true
+    },
+    {
+      "path": "dist/slick/1.8.1/fonts/slick.eot",
+      "bytes": 2048,
+      "sha256": "06d80cf01250132fd1068701108453feee68854b750d22c344ffc0de395e1dcb",
+      "copiedByteForByte": true
+    },
+    {
+      "path": "dist/slick/1.8.1/fonts/slick.woff",
+      "bytes": 1380,
+      "sha256": "26726bac4060abb1226e6ceebc1336e84930fe7a7af1b3895a109d067f5b5dcc",
+      "copiedByteForByte": true
+    },
+    {
+      "path": "dist/slick/1.8.1/fonts/slick.ttf",
+      "bytes": 1892,
+      "sha256": "37bc99cfdbbc046193a26396787374d00e7b10d3a758a36045c07bd8886360d2",
+      "copiedByteForByte": true
+    },
+    {
+      "path": "dist/slick/1.8.1/fonts/slick.svg",
+      "bytes": 2152,
+      "sha256": "12459f221a0b787bf1eaebf2e4c48fca2bd9f8493f71256c3043e7a0c7e932f6",
+      "copiedByteForByte": true
+    },
+    {
+      "path": "dist/slick/1.8.1/LICENSE",
+      "bytes": 1071,
+      "sha256": "ac8b9e2580142b03719008bc5c71b311cb00f5ede4430c28f9bd5d15a82818a0",
+      "copiedByteForByte": true
+    }
+  ]
+}
