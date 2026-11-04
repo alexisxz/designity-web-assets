@@ -10,6 +10,8 @@ Original files are preserved under `vendor/slick/1.8.1/`. Their npm archive inte
 
 The output and hashes are in `dist/`. Original and minified relative asset paths stay identical. Keep the fonts and ajax-loader.gif next to the stylesheets as supplied; moving CSS alone would break its relative dependencies.
 
+The CSS serializer can represent black/white colors with equivalent shorter notation even with property optimization passes disabled. Source and browser CSS comparisons allow only these explicit color equivalences and whitespace/quote normalization; rule order and declarations are preserved.
+
 ## Delivery and releases
 
 Serve `dist/slick/1.8.1/slick.min.css` and `dist/slick/1.8.1/slick-theme.min.css` through jsDelivr's GitHub CDN, using a fixed full commit hash in the URL. Do not use a mutable branch or overwrite a published version. A new file/version requires a new commit URL and validation before updating website references.
